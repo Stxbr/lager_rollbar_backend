@@ -1,0 +1,11 @@
+{application, lager_rollbar_backend, [
+  {description, "Lager Rollbar Logging Backend"},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      erollbar
+     ]},
+    {env, []}
+  ]}.
