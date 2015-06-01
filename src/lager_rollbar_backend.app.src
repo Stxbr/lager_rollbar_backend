@@ -1,11 +1,20 @@
 {application, lager_rollbar_backend, [
   {description, "Lager Rollbar Logging Backend"},
-    {vsn, "0.0.1"},
+    {vsn, "0.0.2"},
     {registered, []},
     {applications, [
       kernel,
       stdlib,
       erollbar
      ]},
-    {env, []}
+    {env, [
+      {level, error}
+      %%{access_token, <<>>},       %% optional
+      %%{environment, undefined},   %% optional
+      %%{platform, undefined},      %% optional
+      %%{host, undefined},          %% optional
+      %%{branch, undefined},        %% optional
+      %%{transport, {lager_rollbar_backend, http_client}}   %% optional
+      %%{filter, {lager_rollbar_backend, all_pass_filter}}  %% optional
+    ]}
   ]}.
