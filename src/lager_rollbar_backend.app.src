@@ -1,6 +1,6 @@
 {application, lager_rollbar_backend, [
   {description, "Lager Rollbar Logging Backend"},
-    {vsn, "0.0.2"},
+    {vsn, "0.0.3"},
     {registered, []},
     {applications, [
       kernel,
