@@ -9,7 +9,7 @@ You need an [Rollbar][rollbar] account. Your application should be OTP conforman
 
 Add `lager_rollbar_backend` to the dependencies in your `rebar.config`:
 
-    {lager_rollbar_backend, ".*", {git, "https://github.com/lrascao/lager_rollbar_backend.git", {tag, "0.0.2"}}}
+    {lager_rollbar_backend, ".*", {git, "https://github.com/lrascao/lager_rollbar_backend.git", {tag, "0.0.3"}}}
 
 Include `lager_rollbar_backend` in the `lager` configuration of your project:
 
