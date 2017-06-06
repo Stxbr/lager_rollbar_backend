@@ -30,8 +30,8 @@
                 platform :: binary(),
                 host :: binary(),
                 branch :: binary(),
-                transport :: tuple(atom(), atom()),
-                filter :: tuple(atom(), atom()),
+                transport :: {atom(), atom()},
+                filter :: {atom(), atom()},
                 filter_state = undefined :: filter_state()}).
 -type state() :: #state{}.
 
